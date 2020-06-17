@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1586837765" tv-usec="80023" name="delete selection">
-    <NoteDiffCommand midi-source="240">
-      <ChangedNotes/>
-      <AddedNotes/>
-      <RemovedNotes>
-        <note id="3169" note="55" channel="0" time="19.988114134542705" length="1.6363000755857904" velocity="100"/>
-      </RemovedNotes>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="368" left-frame="0" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="325">
-            <note note-id="3169"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="368" left-frame="0" y-origin="0">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1586837920" tv-usec="929780" name="change velocities">
     <NoteDiffCommand midi-source="240">
       <ChangedNotes>
@@ -117,16 +96,16 @@
     <StatefulDiffCommand obj-id="681" type-name="ARDOUR::AudioPlaylist">
       <Changes>
         <Regions>
-          <Add id="765"/>
           <Add id="747"/>
-          <Add id="774"/>
-          <Add id="792"/>
           <Add id="756"/>
-          <Add id="819"/>
-          <Add id="828"/>
+          <Add id="765"/>
+          <Add id="774"/>
+          <Add id="783"/>
+          <Add id="792"/>
           <Add id="801"/>
           <Add id="810"/>
-          <Add id="783"/>
+          <Add id="819"/>
+          <Add id="828"/>
           <Add id="837"/>
           <Add id="846"/>
         </Regions>
@@ -543,18 +522,18 @@
     <StatefulDiffCommand obj-id="1057" type-name="ARDOUR::MidiPlaylist">
       <Changes>
         <Regions>
-          <Add id="1125"/>
-          <Add id="1131"/>
-          <Add id="1122"/>
-          <Add id="1110"/>
-          <Add id="1137"/>
-          <Add id="1116"/>
-          <Add id="1143"/>
           <Add id="1128"/>
-          <Add id="1113"/>
-          <Add id="1140"/>
+          <Add id="1131"/>
           <Add id="1134"/>
+          <Add id="1137"/>
+          <Add id="1140"/>
+          <Add id="1143"/>
+          <Add id="1110"/>
+          <Add id="1113"/>
+          <Add id="1116"/>
           <Add id="1119"/>
+          <Add id="1122"/>
+          <Add id="1125"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
@@ -581,6 +560,47 @@
             <Region id="1140"/>
             <Region id="1134"/>
             <Region id="1119"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1592367892" tv-usec="983428" name="set loop range from region">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="250" name="session" start="0" end="2198217" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="250" name="session" start="0" end="2198217" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2218" name="Loop" start="81415" end="1384063" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="3500" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="1072"/>
+            <Region id="1128"/>
+            <Region id="1125"/>
+            <Region id="1122"/>
+            <Region id="1119"/>
+            <Region id="1116"/>
+            <Region id="1113"/>
+            <Region id="1110"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="3500" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="1072"/>
+            <Region id="1128"/>
+            <Region id="1125"/>
+            <Region id="1122"/>
+            <Region id="1119"/>
+            <Region id="1116"/>
+            <Region id="1113"/>
+            <Region id="1110"/>
           </Regions>
         </Selection>
       </SelectionMemento>
