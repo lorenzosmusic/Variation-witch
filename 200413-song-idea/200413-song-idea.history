@@ -1,31 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1598419564" tv-usec="825361" name="region drag">
-    <StatefulDiffCommand obj-id="36537" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <position from="5281823" to="5294544"/>
-        <beat from="259.5" to="260.125"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1042" left-frame="4866180" y-origin="66">
-        <Selection>
-          <Regions>
-            <Region id="36537"/>
-          </Regions>
-          <Marker id="250" start="0"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1042" left-frame="4866180" y-origin="66">
-        <Selection>
-          <Regions>
-            <Region id="36537"/>
-          </Regions>
-          <Marker id="250" start="0"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1598419567" tv-usec="665589" name="region drag">
     <StatefulDiffCommand obj-id="36537" type-name="ARDOUR::MidiRegion">
       <Changes>
@@ -500,22 +474,6 @@
         <length from="8969472" to="8946574"/>
         <position from="0" to="22898"/>
         <beat from="0" to="1.125"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="47762" interpolation-style="Linear" state="Off">
-              <events>0 1
-8969472 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="47763" interpolation-style="Linear" state="Off">
-              <events>0 1
-8946574 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="42" type-name="SelectionMemento">
@@ -622,22 +580,6 @@
         <length from="8946574" to="8517358"/>
         <position from="34293" to="463509"/>
         <beat from="1.6848412698412696" to="22.772551020408162"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="47870" interpolation-style="Linear" state="Off">
-              <events>0 1
-8946574 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="47871" interpolation-style="Linear" state="Off">
-              <events>0 1
-8517358 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="42" type-name="SelectionMemento">
@@ -658,5 +600,14 @@
         </Selection>
       </SelectionMemento>
     </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1599015936" tv-usec="885149" name="capture">
+    <StatefulDiffCommand obj-id="53514" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="53574"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
   </UndoTransaction>
 </UndoHistory>
