@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200413-song-idea" sample-rate="44100" end-is-free="0" id-counter="175028" name-counter="1" event-counter="532475" vca-counter="1">
+<Session version="3002" name="200413-song-idea" sample-rate="44100" end-is-free="0" id-counter="184046" name-counter="1" event-counter="532794" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3ubuntu4"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1484,6 +1484,20 @@
     <Region name="Audio 1-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9350144" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="165975" type="audio" first-edit="nothing" source-0="165949" source-1="165951" master-source-0="165949" master-source-1="165951" channels="2"/>
   </Regions>
   <CompoundAssociations>
+    <CompoundAssociation copy="138415" original="127504"/>
+    <CompoundAssociation copy="138424" original="127820"/>
+    <CompoundAssociation copy="138433" original="127829"/>
+    <CompoundAssociation copy="138442" original="127838"/>
+    <CompoundAssociation copy="138451" original="127847"/>
+    <CompoundAssociation copy="138460" original="127856"/>
+    <CompoundAssociation copy="138469" original="127865"/>
+    <CompoundAssociation copy="138478" original="127874"/>
+    <CompoundAssociation copy="138487" original="127883"/>
+    <CompoundAssociation copy="138496" original="127892"/>
+    <CompoundAssociation copy="138505" original="127901"/>
+    <CompoundAssociation copy="138514" original="127910"/>
+    <CompoundAssociation copy="138523" original="127919"/>
+    <CompoundAssociation copy="138532" original="127928"/>
     <CompoundAssociation copy="19415" original="18957"/>
     <CompoundAssociation copy="19424" original="18755"/>
     <CompoundAssociation copy="19433" original="18990"/>
@@ -1500,26 +1514,10 @@
     <CompoundAssociation copy="19623" original="19180"/>
     <CompoundAssociation copy="19632" original="19213"/>
     <CompoundAssociation copy="19641" original="19345"/>
-    <CompoundAssociation copy="138415" original="127504"/>
-    <CompoundAssociation copy="138424" original="127820"/>
-    <CompoundAssociation copy="138433" original="127829"/>
-    <CompoundAssociation copy="138442" original="127838"/>
-    <CompoundAssociation copy="138451" original="127847"/>
-    <CompoundAssociation copy="138460" original="127856"/>
-    <CompoundAssociation copy="138469" original="127865"/>
-    <CompoundAssociation copy="138478" original="127874"/>
-    <CompoundAssociation copy="138487" original="127883"/>
-    <CompoundAssociation copy="138496" original="127892"/>
-    <CompoundAssociation copy="138505" original="127901"/>
-    <CompoundAssociation copy="138514" original="127910"/>
-    <CompoundAssociation copy="138523" original="127919"/>
-    <CompoundAssociation copy="138532" original="127928"/>
   </CompoundAssociations>
-  <Selection>
-    <StripableAutomationControl stripable="105635" control="0" order="4"/>
-  </Selection>
+  <Selection/>
   <Locations>
-    <Location id="250" name="session" start="0" end="8894631" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+    <Location id="250" name="session" start="0" end="9199803" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="2218" name="Loop" start="325359" end="447732" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
@@ -4162,7 +4160,7 @@ previous version of harmony in the playlist</Comment>
     </Route>
     <Route id="105635" name="Direct Guitar" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="2" flags="AudioTrack,OrderSet" color="2575164927"/>
-      <Controllable name="solo" id="105643" flags="Toggle,RealTime" value="1" self-solo="1" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo" id="105643" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="105649" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="105651" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Direct Guitar" id="105663" direction="Input" default-type="audio" user-latency="0">
@@ -10879,7 +10877,7 @@ previous version of harmony in the playlist</Comment>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="668" y-size="509"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="688" y-off="321" x-size="582" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="956" y-off="112" x-size="582" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -10918,14 +10916,16 @@ previous version of harmony in the playlist</Comment>
       <Window name="PM-2223-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-86-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-165662-165693" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-165662-165692" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-165662-165694" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-165662-165695" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-165693-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-165692-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-165694-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-165695-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-105635-105666" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-105635-105665" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-105635-175003" visible="0" x-off="495" y-off="231" x-size="847" y-size="404" custom-ui="1"/>
+      <Window name="P-105635-105667" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-105635-105668" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-105666-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-105665-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-175003-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-105667-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-105668-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-162-228" visible="0" x-off="1058" y-off="30" x-size="20" y-size="20" custom-ui="1"/>
       <Window name="P-162-192" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-162-409" visible="0" x-off="635" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
@@ -10942,14 +10942,6 @@ previous version of harmony in the playlist</Comment>
       <Window name="PM-12859-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-194-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-195-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-105635-105666" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-105635-105665" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-105635-105667" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-105635-105668" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-105666-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-105665-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-105667-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-105668-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-105726-105757" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-105726-105756" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-105726-105758" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -10985,11 +10977,13 @@ previous version of harmony in the playlist</Comment>
       <Window name="P-53472-53503" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-53472-53502" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-53472-53533" visible="0" x-off="0" y-off="50" x-size="751" y-size="372" custom-ui="1"/>
+      <Window name="P-53472-174920" visible="0" x-off="489" y-off="77" x-size="858" y-size="713" custom-ui="1"/>
       <Window name="P-53472-53504" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-53472-53505" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-53503-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-53502-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-53533-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-174920-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-53504-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-53505-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-7386-7465" visible="0" x-off="939" y-off="570" x-size="20" y-size="20" custom-ui="1"/>
@@ -11088,6 +11082,14 @@ previous version of harmony in the playlist</Comment>
       <Window name="PM-165603-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-165437-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-165438-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-165662-165693" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-165662-165692" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-165662-165694" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-165662-165695" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-165693-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-165692-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-165694-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-165695-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-165805-165836" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-165805-165835" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-165805-165837" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -11104,10 +11106,6 @@ previous version of harmony in the playlist</Comment>
       <Window name="PM-165934-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-165936-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-165937-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-53472-174920" visible="0" x-off="687" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
-      <Window name="PM-174920-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-105635-175003" visible="0" x-off="693" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
-      <Window name="PM-175003-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
