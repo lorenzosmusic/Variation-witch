@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200413-song-idea" sample-rate="44100" end-is-free="0" id-counter="184046" name-counter="1" event-counter="532794" vca-counter="1">
+<Session version="3002" name="200413-song-idea" sample-rate="44100" end-is-free="0" id-counter="202452" name-counter="1" event-counter="545452" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3ubuntu4"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1482,22 +1482,10 @@
     <Region name="Audio-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9199616" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="165772" type="audio" first-edit="nothing" source-0="165756" source-1="165758" master-source-0="165756" master-source-1="165758" channels="2"/>
     <Region name="Audio-7" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9177088" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="165876" type="audio" first-edit="nothing" source-0="165850" source-1="165852" master-source-0="165850" master-source-1="165852" channels="2"/>
     <Region name="Audio 1-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9350144" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="165975" type="audio" first-edit="nothing" source-0="165949" source-1="165951" master-source-0="165949" master-source-1="165951" channels="2"/>
+    <Region name="Fuzz Guitar.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="408882" length="244247" position="0" beat="0" sync-position="408882" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="202297" type="audio" first-edit="nothing" source-0="105714" master-source-0="105714" channels="1"/>
+    <Region name="Fuzz Guitar.17" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="408882" length="244247" position="651323" beat="31.999996220710507" sync-position="408882" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="202307" type="audio" first-edit="nothing" source-0="105714" master-source-0="105714" channels="1"/>
   </Regions>
   <CompoundAssociations>
-    <CompoundAssociation copy="138415" original="127504"/>
-    <CompoundAssociation copy="138424" original="127820"/>
-    <CompoundAssociation copy="138433" original="127829"/>
-    <CompoundAssociation copy="138442" original="127838"/>
-    <CompoundAssociation copy="138451" original="127847"/>
-    <CompoundAssociation copy="138460" original="127856"/>
-    <CompoundAssociation copy="138469" original="127865"/>
-    <CompoundAssociation copy="138478" original="127874"/>
-    <CompoundAssociation copy="138487" original="127883"/>
-    <CompoundAssociation copy="138496" original="127892"/>
-    <CompoundAssociation copy="138505" original="127901"/>
-    <CompoundAssociation copy="138514" original="127910"/>
-    <CompoundAssociation copy="138523" original="127919"/>
-    <CompoundAssociation copy="138532" original="127928"/>
     <CompoundAssociation copy="19415" original="18957"/>
     <CompoundAssociation copy="19424" original="18755"/>
     <CompoundAssociation copy="19433" original="18990"/>
@@ -1514,10 +1502,26 @@
     <CompoundAssociation copy="19623" original="19180"/>
     <CompoundAssociation copy="19632" original="19213"/>
     <CompoundAssociation copy="19641" original="19345"/>
+    <CompoundAssociation copy="138415" original="127504"/>
+    <CompoundAssociation copy="138424" original="127820"/>
+    <CompoundAssociation copy="138433" original="127829"/>
+    <CompoundAssociation copy="138442" original="127838"/>
+    <CompoundAssociation copy="138451" original="127847"/>
+    <CompoundAssociation copy="138460" original="127856"/>
+    <CompoundAssociation copy="138469" original="127865"/>
+    <CompoundAssociation copy="138478" original="127874"/>
+    <CompoundAssociation copy="138487" original="127883"/>
+    <CompoundAssociation copy="138496" original="127892"/>
+    <CompoundAssociation copy="138505" original="127901"/>
+    <CompoundAssociation copy="138514" original="127910"/>
+    <CompoundAssociation copy="138523" original="127919"/>
+    <CompoundAssociation copy="138532" original="127928"/>
   </CompoundAssociations>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="105726" control="0" order="10"/>
+  </Selection>
   <Locations>
-    <Location id="250" name="session" start="0" end="9199803" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+    <Location id="250" name="session" start="61062" end="9240646" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="2218" name="Loop" start="325359" end="447732" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
@@ -2152,7 +2156,7 @@ Using the Clarinet sound in reeds bank of Yoshimi for this sound</Comment>
         <Automation>
           <AutomationList automation-id="gain" id="642" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="643" flags="GainLike" value="0.37222817540168762"/>
+        <Controllable name="gaincontrol" id="643" flags="GainLike" value="0.50070482492446899"/>
       </Processor>
       <Processor id="671" name="meter-Audio  1" active="1" user-latency="0" type="meter"/>
       <Processor id="672" name="roadtrip-beat-130" active="1" user-latency="0" own-input="1" own-output="0" output="roadtrip-beat-130" type="main-outs" role="Main">
@@ -4164,9 +4168,7 @@ previous version of harmony in the playlist</Comment>
       <Controllable name="solo-iso" id="105649" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="105651" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Direct Guitar" id="105663" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Direct Guitar/audio_in 1">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="Direct Guitar/audio_in 1"/>
       </IO>
       <IO name="Direct Guitar" id="105664" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Direct Guitar/audio_out 1">
@@ -4213,7 +4215,7 @@ previous version of harmony in the playlist</Comment>
         <Automation>
           <AutomationList automation-id="gain" id="105638" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="105639" flags="GainLike" value="0.58829283714294434"/>
+        <Controllable name="gaincontrol" id="105639" flags="GainLike" value="0.67081445455551147"/>
       </Processor>
       <Processor id="175003" name="Calf Compressor" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Compressor" count="1" custom="0">
         <Automation>
@@ -4302,9 +4304,7 @@ previous version of harmony in the playlist</Comment>
       <Controllable name="solo-iso" id="105740" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="105742" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Fuzz Guitar" id="105754" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Fuzz Guitar/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
+        <Port type="audio" name="Fuzz Guitar/audio_in 1"/>
       </IO>
       <IO name="Fuzz Guitar" id="105755" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Fuzz Guitar/audio_out 1">
@@ -4383,9 +4383,7 @@ previous version of harmony in the playlist</Comment>
       <Controllable name="solo-iso" id="136979" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="136980" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Disonant Guitar" id="136947" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Disonant Guitar/audio_in 1">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="Disonant Guitar/audio_in 1"/>
       </IO>
       <IO name="Disonant Guitar" id="136948" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Disonant Guitar/audio_out 1">
@@ -4464,12 +4462,8 @@ previous version of harmony in the playlist</Comment>
       <Controllable name="solo-iso" id="165419" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="165421" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="drums" id="165433" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="drums/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
-        <Port type="audio" name="drums/audio_in 2">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="drums/audio_in 1"/>
+        <Port type="audio" name="drums/audio_in 2"/>
       </IO>
       <IO name="drums" id="165434" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="drums/audio_out 1">
@@ -4701,12 +4695,8 @@ previous version of harmony in the playlist</Comment>
       <Controllable name="solo-iso" id="165676" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="165678" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="drums 2" id="165690" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="drums 2/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
-        <Port type="audio" name="drums 2/audio_in 2">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="drums 2/audio_in 1"/>
+        <Port type="audio" name="drums 2/audio_in 2"/>
       </IO>
       <IO name="drums 2" id="165691" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="drums 2/audio_out 1">
@@ -4785,12 +4775,8 @@ previous version of harmony in the playlist</Comment>
       <Controllable name="solo-iso" id="165819" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="165821" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Audio" id="165833" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Audio/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
-        <Port type="audio" name="Audio/audio_in 2">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="Audio/audio_in 1"/>
+        <Port type="audio" name="Audio/audio_in 2"/>
       </IO>
       <IO name="Audio" id="165834" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Audio/audio_out 1">
@@ -4869,12 +4855,8 @@ previous version of harmony in the playlist</Comment>
       <Controllable name="solo-iso" id="165918" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="165920" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Audio 1" id="165932" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Audio 1/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
-        <Port type="audio" name="Audio 1/audio_in 2">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="Audio 1/audio_in 1"/>
+        <Port type="audio" name="Audio 1/audio_in 2"/>
       </IO>
       <IO name="Audio 1" id="165933" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Audio 1/audio_out 1">
@@ -9859,7 +9841,7 @@ previous version of harmony in the playlist</Comment>
       </Region>
     </Playlist>
     <Playlist id="165704" name="Audio.3" type="audio" orig-track-id="165662" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Audio-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9269248" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="165741" type="audio" first-edit="nothing" source-0="165707" source-1="165709" master-source-0="165707" master-source-1="165709" channels="2">
+      <Region name="Audio-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="610615" length="8630031" position="610615" beat="30" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="165741" type="audio" first-edit="nothing" source-0="165707" source-1="165709" master-source-0="165707" master-source-1="165709" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="165742" interpolation-style="Curved" state="Off">
@@ -9878,21 +9860,21 @@ previous version of harmony in the playlist</Comment>
         <FadeOut>
           <AutomationList automation-id="fadeout" id="165744" interpolation-style="Curved" state="Off">
             <events>0 1
-64 1.0000000116860974e-07
+40707 1.0000000116860974e-07
 </events>
           </AutomationList>
         </FadeOut>
         <InverseFadeOut>
           <AutomationList automation-id="fadeout" id="165745" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
-64 1
+40707 1
 </events>
           </AutomationList>
         </InverseFadeOut>
       </Region>
     </Playlist>
     <Playlist id="165847" name="Audio.5" type="audio" orig-track-id="165805" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Audio-7.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9177088" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="165884" type="audio" first-edit="nothing" source-0="165850" source-1="165852" master-source-0="165850" master-source-1="165852" channels="2">
+      <Region name="Audio-7.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="468138" length="8708950" position="468138" beat="23" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="165884" type="audio" first-edit="nothing" source-0="165850" source-1="165852" master-source-0="165850" master-source-1="165852" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="165885" interpolation-style="Curved" state="Off">
@@ -9944,14 +9926,14 @@ previous version of harmony in the playlist</Comment>
         <FadeOut>
           <AutomationList automation-id="fadeout" id="165986" interpolation-style="Curved" state="Off">
             <events>0 1
-64 1.0000000116860974e-07
+28081 1.0000000116860974e-07
 </events>
           </AutomationList>
         </FadeOut>
         <InverseFadeOut>
           <AutomationList automation-id="fadeout" id="165987" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
-64 1
+28081 1
 </events>
           </AutomationList>
         </InverseFadeOut>
@@ -10874,10 +10856,10 @@ previous version of harmony in the playlist</Comment>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="335" x-size="750" y-size="368"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="668" y-size="509"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="679" y-size="509"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="956" y-off="112" x-size="582" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="490" y-off="102" x-size="582" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -10916,16 +10898,6 @@ previous version of harmony in the playlist</Comment>
       <Window name="PM-2223-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-86-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-105635-105666" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-105635-105665" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-105635-175003" visible="0" x-off="495" y-off="231" x-size="847" y-size="404" custom-ui="1"/>
-      <Window name="P-105635-105667" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-105635-105668" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-105666-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-105665-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-175003-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-105667-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-105668-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-162-228" visible="0" x-off="1058" y-off="30" x-size="20" y-size="20" custom-ui="1"/>
       <Window name="P-162-192" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-162-409" visible="0" x-off="635" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
@@ -10942,6 +10914,16 @@ previous version of harmony in the playlist</Comment>
       <Window name="PM-12859-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-194-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-195-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-105635-105666" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-105635-105665" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-105635-175003" visible="0" x-off="495" y-off="231" x-size="847" y-size="404" custom-ui="1"/>
+      <Window name="P-105635-105667" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-105635-105668" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-105666-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-105665-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-175003-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-105667-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-105668-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-105726-105757" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-105726-105756" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-105726-105758" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -11282,6 +11264,7 @@ previous version of harmony in the playlist</Comment>
         </Object>
         <Object id="strip 105726" visible="1" strip-width="Wide">
           <Object id="processor 105756"/>
+          <Object id="processor 202371"/>
         </Object>
         <Object id="rtav 136946" height="94" visible="1"/>
         <Object id="automation 136965" height="86" visible="0"/>
@@ -11310,6 +11293,7 @@ previous version of harmony in the playlist</Comment>
         <Object id="automation 165685" height="66" visible="0"/>
         <Object id="strip 165662" strip-width="Wide" visible="1">
           <Object id="processor 165692"/>
+          <Object id="processor 202107"/>
         </Object>
         <Object id="rtav 165805" height="66" visible="1"/>
         <Object id="automation 165809" height="66" visible="0"/>
@@ -11319,6 +11303,7 @@ previous version of harmony in the playlist</Comment>
         <Object id="automation 165828" height="66" visible="0"/>
         <Object id="strip 165805" strip-width="Wide" visible="1">
           <Object id="processor 165835"/>
+          <Object id="processor 202190"/>
         </Object>
         <Object id="rtav 165904" height="66" visible="1"/>
         <Object id="automation 165908" height="66" visible="0"/>
