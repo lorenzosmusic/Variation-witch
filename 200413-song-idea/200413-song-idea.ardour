@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200413-song-idea" sample-rate="44100" end-is-free="0" id-counter="327975" name-counter="1" event-counter="816454" vca-counter="1">
+<Session version="3002" name="200413-song-idea" sample-rate="44100" end-is-free="0" id-counter="339582" name-counter="1" event-counter="825674" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3ubuntu4"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1624,7 +1624,7 @@
     <CompoundAssociation copy="138532" original="127928"/>
   </CompoundAssociations>
   <Selection>
-    <StripableAutomationControl stripable="327669" control="0" order="11"/>
+    <StripableAutomationControl stripable="211505" control="0" order="3"/>
   </Selection>
   <Locations>
     <Location id="250" name="session" start="407077" end="9240646" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -1733,7 +1733,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="57" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="58" flags="GainLike" value="1"/>
+        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.74220532178878784"/>
       </Processor>
       <Processor id="2223" name="Calf Compressor" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Compressor" count="1" custom="0">
         <Automation>
@@ -1771,28 +1771,28 @@
           <Channelmap type="midi" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <Port symbol="bypass" value="0"/>
-          <Port symbol="level_in" value="1"/>
-          <Port symbol="threshold" value="0.125"/>
-          <Port symbol="ratio" value="2"/>
+          <Port symbol="level_in" value="0.56801456212997437"/>
+          <Port symbol="threshold" value="0.37892916798591614"/>
+          <Port symbol="ratio" value="1.9999998807907104"/>
           <Port symbol="attack" value="20"/>
           <Port symbol="release" value="250"/>
           <Port symbol="makeup" value="1"/>
-          <Port symbol="knee" value="2.8284299373626709"/>
-          <Port symbol="detection" value="0"/>
+          <Port symbol="knee" value="1"/>
+          <Port symbol="detection" value="1"/>
           <Port symbol="stereo_link" value="0"/>
           <Port symbol="mix" value="1"/>
         </lv2>
         <Controllable name="Bypass" id="2225" flags="Toggle" value="0" parameter="4" symbol="bypass"/>
-        <Controllable name="Input" id="2227" flags="" value="1" parameter="5" symbol="level_in"/>
-        <Controllable name="Threshold" id="2229" flags="" value="0.125" parameter="10" symbol="threshold"/>
-        <Controllable name="Ratio" id="2231" flags="" value="2" parameter="11" symbol="ratio"/>
+        <Controllable name="Input" id="2227" flags="" value="0.56801456212997437" parameter="5" symbol="level_in"/>
+        <Controllable name="Threshold" id="2229" flags="" value="0.37892916798591614" parameter="10" symbol="threshold"/>
+        <Controllable name="Ratio" id="2231" flags="" value="1.9999998807907104" parameter="11" symbol="ratio"/>
         <Controllable name="Attack" id="2233" flags="" value="20" parameter="12" symbol="attack"/>
         <Controllable name="Release" id="2235" flags="" value="250" parameter="13" symbol="release"/>
         <Controllable name="Makeup Gain" id="2237" flags="" value="1" parameter="14" symbol="makeup"/>
-        <Controllable name="Knee" id="2239" flags="" value="2.8284299373626709" parameter="15" symbol="knee"/>
-        <Controllable name="Detection" id="2241" flags="" value="0" parameter="16" symbol="detection"/>
+        <Controllable name="Knee" id="2239" flags="" value="1" parameter="15" symbol="knee"/>
+        <Controllable name="Detection" id="2241" flags="" value="1" parameter="16" symbol="detection"/>
         <Controllable name="Stereo Link" id="2243" flags="" value="0" parameter="17" symbol="stereo_link"/>
         <Controllable name="Mix" id="2245" flags="" value="1" parameter="19" symbol="mix"/>
       </Processor>
@@ -1885,7 +1885,7 @@ Using the Clarinet sound in reeds bank of Yoshimi for this sound</Comment>
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state19">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state20">
           <Port symbol="lv2_freewheel" value="0"/>
         </lv2>
         <Controllable name="Freewheel" id="230" flags="Toggle" value="0" parameter="1" symbol="lv2_freewheel"/>
@@ -2393,7 +2393,7 @@ Using Chip Bass 3 in the chip bank libray of Yoshimi for bass sound</Comment>
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state34">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state36">
           <Port symbol="lv2_freewheel" value="0"/>
         </lv2>
         <Controllable name="Freewheel" id="7467" flags="Toggle" value="0" parameter="1" symbol="lv2_freewheel"/>
@@ -2710,7 +2710,7 @@ using Violent_pad in the mysterious bank in Yoshimi for this sound</Comment>
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state40">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state41">
           <Port symbol="lv2_freewheel" value="0"/>
         </lv2>
         <Controllable name="Freewheel" id="12602" flags="Toggle" value="0" parameter="1" symbol="lv2_freewheel"/>
@@ -3410,7 +3410,7 @@ the effect used is Flute 3 in Yoshimi in the red and wind bank</Comment>
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state25">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state26">
           <Port symbol="lv2_freewheel" value="0"/>
         </lv2>
         <Controllable name="Freewheel" id="36029" flags="Toggle" value="0" parameter="1" symbol="lv2_freewheel"/>
@@ -3688,7 +3688,7 @@ the effect used is Flute 3 in Yoshimi in the red and wind bank</Comment>
     </Route>
     <Route id="53472" name="Bass Low" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="5" flags="AudioTrack,OrderSet" color="3080578559"/>
-      <Controllable name="solo" id="53480" flags="Toggle,RealTime" value="1" self-solo="1" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo" id="53480" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="53486" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="53488" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Bass Low" id="53500" direction="Input" default-type="audio" user-latency="0">
@@ -6557,7 +6557,7 @@ Rob had this to the right
     </Route>
     <Route id="327669" name="Bass Fuzz" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="6" flags="AudioTrack,OrderSet" color="3852518655"/>
-      <Controllable name="solo" id="327636" flags="Toggle,RealTime" value="1" self-solo="1" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo" id="327636" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="327862" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="327863" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Bass Fuzz" id="327670" direction="Input" default-type="audio" user-latency="0">
@@ -14134,6 +14134,7 @@ Rob had this to the right
       <Window name="RPM-639" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-303394" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-53472" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-327669" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-105635" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-211505" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-105726" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -14153,7 +14154,7 @@ Rob had this to the right
       <Window name="RPM-165904" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-85" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-84" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-54-2223" visible="0" x-off="108" y-off="0" x-size="850" y-size="404" custom-ui="1"/>
+      <Window name="P-54-2223" visible="0" x-off="108" y-off="0" x-size="943" y-size="427" custom-ui="1"/>
       <Window name="P-54-86" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-87" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-85-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -14220,13 +14221,29 @@ Rob had this to the right
       <Window name="P-53472-53503" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-53472-53502" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-53472-292811" visible="0" x-off="1073" y-off="0" x-size="943" y-size="427" custom-ui="1"/>
+      <Window name="P-53472-327424" visible="0" x-off="0" y-off="0" x-size="756" y-size="780" custom-ui="1"/>
       <Window name="P-53472-53504" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-53472-53505" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-53503-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-53502-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-292811-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-327424-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-53504-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-53505-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-327669-327683" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-327669-327686" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-327669-327915" visible="0" x-off="0" y-off="128" x-size="641" y-size="235" custom-ui="1"/>
+      <Window name="P-327669-327725" visible="0" x-off="0" y-off="32" x-size="943" y-size="427" custom-ui="1"/>
+      <Window name="P-327669-327821" visible="0" x-off="0" y-off="0" x-size="756" y-size="780" custom-ui="1"/>
+      <Window name="P-327669-327849" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-327669-327850" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-327683-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-327686-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-327915-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-327725-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-327821-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-327849-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-327850-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-105635-105666" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-105635-105665" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-105635-292585" visible="0" x-off="1073" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
@@ -14409,23 +14426,6 @@ Rob had this to the right
       <Window name="PM-165934-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-165936-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-165937-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-53472-327424" visible="0" x-off="0" y-off="0" x-size="756" y-size="780" custom-ui="1"/>
-      <Window name="PM-327424-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-327669" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-327669-327683" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-327669-327686" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-327669-327725" visible="0" x-off="0" y-off="32" x-size="943" y-size="427" custom-ui="1"/>
-      <Window name="P-327669-327821" visible="0" x-off="0" y-off="0" x-size="756" y-size="780" custom-ui="1"/>
-      <Window name="P-327669-327849" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-327669-327850" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-327683-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-327686-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-327725-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-327821-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-327849-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-327850-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-327669-327915" visible="0" x-off="0" y-off="128" x-size="641" y-size="235" custom-ui="1"/>
-      <Window name="PM-327915-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
