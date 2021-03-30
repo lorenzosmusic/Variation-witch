@@ -1,771 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1606199100" tv-usec="887372" name="region drag">
-    <StatefulDiffCommand obj-id="304375" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="3622985" to="3582277"/>
-        <beat from="178" to="176"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="836" left-frame="2706968" y-origin="561">
-        <Selection>
-          <Regions>
-            <Region id="304375"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="836" left-frame="2706968" y-origin="561">
-        <Selection>
-          <Regions>
-            <Region id="304375"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606199197" tv-usec="652545" name="region copy">
-    <StatefulDiffCommand obj-id="304023" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="304417"/>
-          <Add id="304437"/>
-          <Add id="304397"/>
-          <Add id="304407"/>
-          <Add id="304427"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="6688" left-frame="0" y-origin="429">
-        <Selection>
-          <Regions>
-            <Region id="304375"/>
-            <Region id="304249"/>
-            <Region id="304095"/>
-            <Region id="304058"/>
-            <Region id="304042"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="6688" left-frame="0" y-origin="429">
-        <Selection>
-          <Regions>
-            <Region id="304397"/>
-            <Region id="304407"/>
-            <Region id="304417"/>
-            <Region id="304427"/>
-            <Region id="304437"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606199210" tv-usec="924045" name="region drag">
-    <StatefulDiffCommand obj-id="304397" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="6777831" to="6757477"/>
-        <beat from="333.00001133786844" to="332.0000037792895"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="304407" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="7062785" to="7042431"/>
-        <beat from="347.0000188964475" to="346.0000113378685"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="304417" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="6615000" to="6594646"/>
-        <beat from="325" to="323.999992441421"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="304427" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="7184908" to="7164554"/>
-        <beat from="353.00001511715794" to="352.000007558579"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="304437" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="6615000" to="6594646"/>
-        <beat from="325" to="324"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1672" left-frame="4960824" y-origin="429">
-        <Selection>
-          <Regions>
-            <Region id="304397"/>
-            <Region id="304407"/>
-            <Region id="304417"/>
-            <Region id="304427"/>
-            <Region id="304437"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1672" left-frame="4960824" y-origin="429">
-        <Selection>
-          <Regions>
-            <Region id="304397"/>
-            <Region id="304407"/>
-            <Region id="304417"/>
-            <Region id="304427"/>
-            <Region id="304437"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606199291" tv-usec="332550" name="mute region">
-    <StatefulDiffCommand obj-id="304280" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1672" left-frame="2663496" y-origin="647">
-        <Selection>
-          <Regions>
-            <Region id="304280"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1672" left-frame="2663496" y-origin="647">
-        <Selection>
-          <Regions>
-            <Region id="304280"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606199314" tv-usec="599323" name="mute region">
-    <StatefulDiffCommand obj-id="262033" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="22" to="21"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1672" left-frame="3254966" y-origin="647">
-        <Selection>
-          <Regions>
-            <Region id="262033"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1672" left-frame="3254966" y-origin="647">
-        <Selection>
-          <Regions>
-            <Region id="262033"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606199339" tv-usec="25855" name="mute region">
-    <StatefulDiffCommand obj-id="303793" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="836" left-frame="2679380" y-origin="561">
-        <Selection>
-          <Regions>
-            <Region id="303793"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="836" left-frame="2679380" y-origin="561">
-        <Selection>
-          <Regions>
-            <Region id="303793"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606199380" tv-usec="741942" name="mute regions">
-    <StatefulDiffCommand obj-id="137940" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="18" to="17"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137887" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="17" to="16"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137836" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="16" to="15"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137781" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="15" to="14"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137739" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="14" to="13"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137698" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="13" to="12"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137655" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="12" to="11"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137614" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="11" to="10"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137575" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="10" to="9"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137430" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="7" to="6"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137532" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="9" to="8"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137502" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="8" to="7"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137405" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="6" to="5"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137376" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="5" to="4"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137264" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="4" to="3"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="137181" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <muted from="0" to="1"/>
-        <layering-index from="3" to="2"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="3344" left-frame="4939088" y-origin="330">
-        <Selection>
-          <Regions>
-            <Region id="137940"/>
-            <Region id="137887"/>
-            <Region id="137836"/>
-            <Region id="137781"/>
-            <Region id="137739"/>
-            <Region id="137698"/>
-            <Region id="137655"/>
-            <Region id="137614"/>
-            <Region id="137575"/>
-            <Region id="137430"/>
-            <Region id="137532"/>
-            <Region id="137502"/>
-            <Region id="137405"/>
-            <Region id="137376"/>
-            <Region id="137264"/>
-            <Region id="137181"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="3344" left-frame="4939088" y-origin="330">
-        <Selection>
-          <Regions>
-            <Region id="137940"/>
-            <Region id="137887"/>
-            <Region id="137836"/>
-            <Region id="137781"/>
-            <Region id="137739"/>
-            <Region id="137698"/>
-            <Region id="137655"/>
-            <Region id="137614"/>
-            <Region id="137575"/>
-            <Region id="137430"/>
-            <Region id="137532"/>
-            <Region id="137502"/>
-            <Region id="137405"/>
-            <Region id="137376"/>
-            <Region id="137264"/>
-            <Region id="137181"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606200550" tv-usec="18153" name="split">
-    <StatefulDiffCommand obj-id="165704" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="304788"/>
-          <Add id="304779"/>
-          <Remove id="303650"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="418" left-frame="5151850" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="303650"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="418" left-frame="5151850" y-origin="0">
-        <Selection>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606200552" tv-usec="358716" name="Region start trim">
-    <StatefulDiffCommand obj-id="304788" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="5414123" to="5495538"/>
-        <length from="3826523" to="3745108"/>
-        <position from="5414123" to="5495538"/>
-        <beat from="266" to="270"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="418" left-frame="5151850" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304788"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="418" left-frame="5151850" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304788"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606200556" tv-usec="967771" name="Region end trim">
-    <StatefulDiffCommand obj-id="304779" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <length from="3785815" to="3765461"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="418" left-frame="5151850" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304779"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="418" left-frame="5151850" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304779"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606200566" tv-usec="803695" name="split">
-    <StatefulDiffCommand obj-id="165704" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="304828"/>
-          <Add id="304837"/>
-          <Remove id="304788"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="418" left-frame="5151850" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304788"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="418" left-frame="5151850" y-origin="0">
-        <Selection>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606200568" tv-usec="490276" name="Region start trim">
-    <StatefulDiffCommand obj-id="304837" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="5617662" to="5658369"/>
-        <length from="3622984" to="3582277"/>
-        <position from="5617662" to="5658369"/>
-        <beat from="276" to="278"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="418" left-frame="5151850" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304837"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="418" left-frame="5151850" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304837"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606200575" tv-usec="482025" name="change fade out length">
-    <MementoCommand obj-id="304782" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadeout" id="304782" interpolation-style="Curved" state="Off">
-        <events>0 1
-64 1.0000000116860974e-07
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadeout" id="304782" interpolation-style="Curved" state="Off">
-        <events>0 1
-20353 1.0000000116860974e-07
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="418" left-frame="5151850" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304779"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="418" left-frame="5151850" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304779"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606200583" tv-usec="583059" name="change fade out length">
-    <MementoCommand obj-id="304831" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadeout" id="304831" interpolation-style="Curved" state="Off">
-        <events>0 1
-64 1.0000000116860974e-07
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadeout" id="304831" interpolation-style="Curved" state="Off">
-        <events>0 1
-20353 1.0000000116860974e-07
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="418" left-frame="5151850" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304828"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="418" left-frame="5151850" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304828"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606200617" tv-usec="284301" name="split">
-    <StatefulDiffCommand obj-id="165847" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="304874"/>
-          <Add id="304883"/>
-          <Remove id="165884"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="836" left-frame="4795296" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="165884"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="836" left-frame="4795296" y-origin="0">
-        <Selection>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606200619" tv-usec="742270" name="Region start trim">
-    <StatefulDiffCommand obj-id="304883" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="5393769" to="5495538"/>
-        <length from="3783319" to="3681550"/>
-        <position from="5393769" to="5495538"/>
-        <beat from="265" to="270"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="836" left-frame="4795296" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304883"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="836" left-frame="4795296" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304883"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606200628" tv-usec="349283" name="Region start trim">
-    <StatefulDiffCommand obj-id="304883" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="5495538" to="5515892"/>
-        <length from="3681550" to="3661196"/>
-        <position from="5495538" to="5515892"/>
-        <beat from="270" to="271"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="836" left-frame="4795296" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304883"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="836" left-frame="4795296" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304883"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606200631" tv-usec="622851" name="change fade out length">
-    <MementoCommand obj-id="304877" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadeout" id="304877" interpolation-style="Curved" state="Off">
-        <events>0 1
-64 1.0000000116860974e-07
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadeout" id="304877" interpolation-style="Curved" state="Off">
-        <events>0 1
-20353 1.0000000116860974e-07
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="836" left-frame="4795296" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304874"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="836" left-frame="4795296" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304874"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606200637" tv-usec="964940" name="change fade in length">
-    <MementoCommand obj-id="304829" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="304829" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="304829" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-20354 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="836" left-frame="4795296" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304828"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="836" left-frame="4795296" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304828"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1606200654" tv-usec="958091" name="Region start trim">
-    <StatefulDiffCommand obj-id="304883" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="5515892" to="5536246"/>
-        <length from="3661196" to="3640842"/>
-        <position from="5515892" to="5536246"/>
-        <beat from="271" to="272"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="209" left-frame="5357088" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304883"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="209" left-frame="5357088" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="304883"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1612329885" tv-usec="52089" name="adjust region gain">
-    <StatefulDiffCommand obj-id="78469" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="2.4916980266571045" to="2.7957308292388916"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="6577" left-frame="171121" y-origin="198">
-        <Selection>
-          <Regions>
-            <Region id="78469"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="6577" left-frame="171121" y-origin="198">
-        <Selection>
-          <Regions>
-            <Region id="78469"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1612329896" tv-usec="403068" name="adjust region gain">
-    <StatefulDiffCommand obj-id="78469" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="2.7957308292388916" to="3.1368615627288818"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="6577" left-frame="171121" y-origin="198">
-        <Selection>
-          <Regions>
-            <Region id="78469"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="6577" left-frame="171121" y-origin="198">
-        <Selection>
-          <Regions>
-            <Region id="78469"/>
-          </Regions>
-          <Marker id="250" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1612329933" tv-usec="482399" name="adjust region gain">
     <StatefulDiffCommand obj-id="327520" type-name="ARDOUR::AudioRegion">
       <Changes>
@@ -812,6 +46,453 @@
             <Region id="327520"/>
           </Regions>
           <Marker id="250" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617082309" tv-usec="470518" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="250" name="session" start="407077" end="9240646" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2218" name="Loop" start="325359" end="447732" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="250" name="session" start="569908" end="9240646" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2218" name="Loop" start="325359" end="447732" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="822" left-frame="309241" y-origin="0">
+        <Selection>
+          <Marker id="250" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="822" left-frame="309241" y-origin="0">
+        <Selection>
+          <Marker id="250" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617082492" tv-usec="401073" name="copy range">
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseRange" zoom="792" left-frame="4410836" y-origin="0">
+        <Selection>
+          <StripableView id="165662"/>
+          <AudioRange start="4477846" end="4640677"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseRange" zoom="792" left-frame="4410836" y-origin="0">
+        <Selection>
+          <StripableView id="165662"/>
+          <AudioRange start="4477846" end="4640677"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617082496" tv-usec="343747" name="duplicate range selection">
+    <StatefulDiffCommand obj-id="165704" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="351236"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseRange" zoom="792" left-frame="4410836" y-origin="0">
+        <Selection>
+          <StripableView id="165662"/>
+          <AudioRange start="4477846" end="4640677"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseRange" zoom="792" left-frame="4410836" y-origin="0">
+        <Selection>
+          <StripableView id="165662"/>
+          <AudioRange start="4640677" end="4803508"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617082539" tv-usec="600348" name="delete objects">
+    <StatefulDiffCommand obj-id="165704" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="351236"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="792" left-frame="4410836" y-origin="66">
+        <Selection>
+          <Regions>
+            <Region id="351236"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="792" left-frame="4410836" y-origin="66">
+        <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617082615" tv-usec="293011" name="duplicate range selection">
+    <StatefulDiffCommand obj-id="211547" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="351288"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseRange" zoom="792" left-frame="4130666" y-origin="198">
+        <Selection>
+          <StripableView id="211505"/>
+          <AudioRange start="4396431" end="4559262"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseRange" zoom="792" left-frame="4130666" y-origin="198">
+        <Selection>
+          <StripableView id="211505"/>
+          <AudioRange start="4559262" end="4722093"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617082623" tv-usec="469433" name="region drag">
+    <StatefulDiffCommand obj-id="351288" type-name="ARDOUR::AudioRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="792" left-frame="4130666" y-origin="198">
+        <Selection>
+          <Regions>
+            <Region id="351288"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="792" left-frame="4130666" y-origin="198">
+        <Selection>
+          <Regions>
+            <Region id="351288"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617082652" tv-usec="427847" name="region copy">
+    <StatefulDiffCommand obj-id="211547" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="351310"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="792" left-frame="4130666" y-origin="66">
+        <Selection>
+          <Regions>
+            <Region id="351288"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="792" left-frame="4130666" y-origin="66">
+        <Selection>
+          <Regions>
+            <Region id="351310"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617083221" tv-usec="564912" name="Region end trim">
+    <StatefulDiffCommand obj-id="304837" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="3582277" to="3500862"/>
+        <Envelope>
+          <from>
+            <AutomationList automation-id="envelope" id="351383" interpolation-style="Linear" state="Off">
+              <events>0 1
+3582277 1
+</events>
+            </AutomationList>
+          </from>
+          <to>
+            <AutomationList automation-id="envelope" id="351384" interpolation-style="Linear" state="Off">
+              <events>0 1
+3500862 1
+</events>
+            </AutomationList>
+          </to>
+        </Envelope>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="792" left-frame="8833968" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="304837"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="792" left-frame="8833968" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="304837"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617083228" tv-usec="948690" name="change fade out length">
+    <MementoCommand obj-id="304840" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="fadeout" id="304840" interpolation-style="Curved" state="Off">
+        <events>0 1
+40707 1.0000000116860974e-07
+</events>
+      </AutomationList>
+      <AutomationList automation-id="fadeout" id="304840" interpolation-style="Curved" state="Off">
+        <events>0 1
+64 1.0000000116860974e-07
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="792" left-frame="8833968" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="304837"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="792" left-frame="8833968" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="304837"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617083235" tv-usec="354409" name="Region end trim">
+    <StatefulDiffCommand obj-id="304837" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="3500862" to="3480508"/>
+        <Envelope>
+          <from>
+            <AutomationList automation-id="envelope" id="351411" interpolation-style="Linear" state="Off">
+              <events>0 1
+3500862 1
+</events>
+            </AutomationList>
+          </from>
+          <to>
+            <AutomationList automation-id="envelope" id="351412" interpolation-style="Linear" state="Off">
+              <events>0 1
+3480508 1
+</events>
+            </AutomationList>
+          </to>
+        </Envelope>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="792" left-frame="8833968" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="304837"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="792" left-frame="8833968" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="304837"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617083240" tv-usec="924520" name="Region end trim">
+    <StatefulDiffCommand obj-id="304837" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="3480508" to="3460154"/>
+        <Envelope>
+          <from>
+            <AutomationList automation-id="envelope" id="351436" interpolation-style="Linear" state="Off">
+              <events>0 1
+3480508 1
+</events>
+            </AutomationList>
+          </from>
+          <to>
+            <AutomationList automation-id="envelope" id="351437" interpolation-style="Linear" state="Off">
+              <events>0 1
+3460154 1
+</events>
+            </AutomationList>
+          </to>
+        </Envelope>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="792" left-frame="8833968" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="304837"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="792" left-frame="8833968" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="304837"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617083252" tv-usec="433223" name="Region end trim">
+    <StatefulDiffCommand obj-id="304837" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="3460154" to="3439800"/>
+        <Envelope>
+          <from>
+            <AutomationList automation-id="envelope" id="351461" interpolation-style="Linear" state="Off">
+              <events>0 1
+3460154 1
+</events>
+            </AutomationList>
+          </from>
+          <to>
+            <AutomationList automation-id="envelope" id="351462" interpolation-style="Linear" state="Off">
+              <events>0 1
+3439800 1
+</events>
+            </AutomationList>
+          </to>
+        </Envelope>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="198" left-frame="9051372" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="304837"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="198" left-frame="9051372" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="304837"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617083271" tv-usec="275124" name="Region end trim">
+    <StatefulDiffCommand obj-id="304837" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="3439800" to="3429623"/>
+        <Envelope>
+          <from>
+            <AutomationList automation-id="envelope" id="351486" interpolation-style="Linear" state="Off">
+              <events>0 1
+3439800 1
+</events>
+            </AutomationList>
+          </from>
+          <to>
+            <AutomationList automation-id="envelope" id="351487" interpolation-style="Linear" state="Off">
+              <events>0 1
+3429623 1
+</events>
+            </AutomationList>
+          </to>
+        </Envelope>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="198" left-frame="9034740" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="304837"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="198" left-frame="9034740" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="304837"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617083292" tv-usec="40685" name="Region end trim">
+    <StatefulDiffCommand obj-id="304883" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="3640842" to="3582277"/>
+        <Envelope>
+          <from>
+            <AutomationList automation-id="envelope" id="351501" interpolation-style="Linear" state="Off">
+              <events>0 1
+3640842 1
+</events>
+            </AutomationList>
+          </from>
+          <to>
+            <AutomationList automation-id="envelope" id="351502" interpolation-style="Linear" state="Off">
+              <events>0 1
+3582277 1
+</events>
+            </AutomationList>
+          </to>
+        </Envelope>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1584" left-frame="8361144" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="304883"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1584" left-frame="8361144" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="304883"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1617083318" tv-usec="809354" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="250" name="session" start="569908" end="9240646" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2218" name="Loop" start="325359" end="447732" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="250" name="session" start="569908" end="9138877" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="2218" name="Loop" start="325359" end="447732" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="396" left-frame="8866044" y-origin="132">
+        <Selection>
+          <Regions>
+            <Region id="304883"/>
+          </Regions>
+          <Marker id="250" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="396" left-frame="8866044" y-origin="132">
+        <Selection>
+          <Regions>
+            <Region id="304883"/>
+          </Regions>
+          <Marker id="250" start="0"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
