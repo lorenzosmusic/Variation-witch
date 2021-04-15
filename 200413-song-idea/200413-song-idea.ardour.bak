@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200413-song-idea" sample-rate="44100" end-is-free="0" id-counter="351722" name-counter="1" event-counter="854006" vca-counter="1">
+<Session version="3002" name="200413-song-idea" sample-rate="44100" end-is-free="0" id-counter="374868" name-counter="1" event-counter="857041" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3ubuntu4"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1595,8 +1595,13 @@
     <Region name="Audio 2-3.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1811493" length="162832" position="0" beat="0" sync-position="1811493" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1.1868623495101929" id="351277" type="audio" first-edit="nothing" source-0="211636" master-source-0="211636" channels="1"/>
   </Regions>
   <CompoundAssociations>
-    <CompoundAssociation copy="138415" original="127504"/>
-    <CompoundAssociation copy="138424" original="127820"/>
+    <CompoundAssociation copy="19587" original="18957"/>
+    <CompoundAssociation copy="19596" original="18990"/>
+    <CompoundAssociation copy="19605" original="19081"/>
+    <CompoundAssociation copy="19614" original="19147"/>
+    <CompoundAssociation copy="19623" original="19180"/>
+    <CompoundAssociation copy="19632" original="19213"/>
+    <CompoundAssociation copy="19641" original="19345"/>
     <CompoundAssociation copy="19415" original="18957"/>
     <CompoundAssociation copy="19424" original="18755"/>
     <CompoundAssociation copy="19433" original="18990"/>
@@ -1606,13 +1611,8 @@
     <CompoundAssociation copy="19469" original="19023"/>
     <CompoundAssociation copy="19478" original="19213"/>
     <CompoundAssociation copy="19487" original="19345"/>
-    <CompoundAssociation copy="19587" original="18957"/>
-    <CompoundAssociation copy="19596" original="18990"/>
-    <CompoundAssociation copy="19605" original="19081"/>
-    <CompoundAssociation copy="19614" original="19147"/>
-    <CompoundAssociation copy="19623" original="19180"/>
-    <CompoundAssociation copy="19632" original="19213"/>
-    <CompoundAssociation copy="19641" original="19345"/>
+    <CompoundAssociation copy="138415" original="127504"/>
+    <CompoundAssociation copy="138424" original="127820"/>
     <CompoundAssociation copy="138433" original="127829"/>
     <CompoundAssociation copy="138442" original="127838"/>
     <CompoundAssociation copy="138451" original="127847"/>
@@ -1627,7 +1627,7 @@
     <CompoundAssociation copy="138532" original="127928"/>
   </CompoundAssociations>
   <Selection>
-    <StripableAutomationControl stripable="91691" control="0" order="25"/>
+    <StripableAutomationControl stripable="136946" control="0" order="3"/>
   </Selection>
   <Locations>
     <Location id="250" name="session" start="569908" end="9138877" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -2251,7 +2251,7 @@ Using the Clarinet sound in reeds bank of Yoshimi for this sound</Comment>
       </Automation>
       <Pannable>
         <Controllable name="pan-azimuth" id="658" flags="" value="0.5"/>
-        <Controllable name="pan-width" id="662" flags="" value="0"/>
+        <Controllable name="pan-width" id="662" flags="" value="1"/>
         <Controllable name="pan-elevation" id="660" flags="" value="0"/>
         <Controllable name="pan-frontback" id="664" flags="" value="0"/>
         <Controllable name="pan-lfe" id="666" flags="" value="0"/>
@@ -2284,7 +2284,7 @@ Using the Clarinet sound in reeds bank of Yoshimi for this sound</Comment>
         </PannerShell>
         <Pannable>
           <Controllable name="pan-azimuth" id="658" flags="" value="0.5"/>
-          <Controllable name="pan-width" id="662" flags="" value="0"/>
+          <Controllable name="pan-width" id="662" flags="" value="1"/>
           <Controllable name="pan-elevation" id="660" flags="" value="0"/>
           <Controllable name="pan-frontback" id="664" flags="" value="0"/>
           <Controllable name="pan-lfe" id="666" flags="" value="0"/>
@@ -2308,7 +2308,7 @@ Using the Clarinet sound in reeds bank of Yoshimi for this sound</Comment>
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
           <Controllable name="pan-azimuth" id="658" flags="" value="0.5"/>
-          <Controllable name="pan-width" id="662" flags="" value="0"/>
+          <Controllable name="pan-width" id="662" flags="" value="1"/>
           <Controllable name="pan-elevation" id="660" flags="" value="0"/>
           <Controllable name="pan-frontback" id="664" flags="" value="0"/>
           <Controllable name="pan-lfe" id="666" flags="" value="0"/>
@@ -14182,7 +14182,7 @@ Rob had this to the right
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="679" y-size="509"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="37" y-off="55" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="0" x-off="28" y-off="31" x-size="582" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="691" y-off="321" x-size="538" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -14283,28 +14283,28 @@ Rob had this to the right
       <Window name="PM-303427-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-53472-53503" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-53472-53502" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-53472-292811" visible="0" x-off="1073" y-off="0" x-size="943" y-size="427" custom-ui="1"/>
       <Window name="P-53472-327424" visible="0" x-off="0" y-off="0" x-size="756" y-size="780" custom-ui="1"/>
+      <Window name="P-53472-292811" visible="0" x-off="1073" y-off="0" x-size="943" y-size="427" custom-ui="1"/>
       <Window name="P-53472-53504" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-53472-53505" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-53503-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-53502-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-292811-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-327424-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-292811-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-53504-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-53505-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-327669-327683" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-327669-327686" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-327669-327915" visible="0" x-off="0" y-off="128" x-size="641" y-size="235" custom-ui="1"/>
-      <Window name="P-327669-327725" visible="0" x-off="0" y-off="32" x-size="943" y-size="427" custom-ui="1"/>
       <Window name="P-327669-327821" visible="0" x-off="0" y-off="0" x-size="756" y-size="780" custom-ui="1"/>
+      <Window name="P-327669-327725" visible="0" x-off="0" y-off="32" x-size="943" y-size="427" custom-ui="1"/>
       <Window name="P-327669-327849" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-327669-327850" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-327683-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-327686-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-327915-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-327725-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-327821-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-327725-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-327849-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-327850-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-105635-105666" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
