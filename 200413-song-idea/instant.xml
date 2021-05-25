@@ -2,14 +2,17 @@
 <instant>
   <LastUsedSnapshot name="200413-song-idea"/>
   <Main x="0" y="29" w="1920" h="1019" current-tab="editor"/>
-  <Editor id="12" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusMouse" zoom="6380" snap-to="SnapToBeatDiv2" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv2" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBeatDiv2" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" visible-track-count="-1" playhead="569908" left-frame="341019" y-origin="66" show-measures="1" maximised="0" follow-playhead="0" stationary-playhead="0" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="1" editor-list-page="1" show-marker-lines="0" nudge-clock-value="220500">
+  <Editor id="12" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusMouse" zoom="6387" snap-to="SnapToBeatDiv2" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv2" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBeatDiv2" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" visible-track-count="-1" playhead="8976046" left-frame="330541" y-origin="66" show-measures="1" maximised="0" follow-playhead="1" stationary-playhead="0" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="1" editor-list-page="1" show-marker-lines="0" nudge-clock-value="220500">
     <Window name="Editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="1"/>
     <Buttons>
       <Press/>
       <Release/>
     </Buttons>
     <Selection>
-      <Marker id="250" start="0"/>
+      <Regions>
+        <Region id="78437"/>
+      </Regions>
+      <Marker id="250" start="1"/>
     </Selection>
     <RegionList sort-type="ByEndInFile" sort-ascending="1" show-all="0" show-automatic-regions="1"/>
     <ActionScript lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</ActionScript>
