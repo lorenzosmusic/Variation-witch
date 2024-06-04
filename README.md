@@ -4,8 +4,8 @@
 This is a song recorded by the abstract deconstruction creative commons band [Lorenzo's Music](https://www.lorenzosmusic.com/?utm_source=github&utm_medium=bandlink&utm_campaign=variationwitchreadme) using only open-source tools and software.
 
 # The Song
-Here is the [final recording from this experiment on YouTube](https://youtu.be/TcN_bazTcrw)
-[![Lorenzo's Music - Variation witch - audio](https://i.ytimg.com/vi/TcN_bazTcrw/maxresdefault.jpg)](https://youtu.be/TcN_bazTcrw)
+Here is the [final recording from this session on YouTube](https://youtu.be/9Fxmzb-1Pd8)
+[![Lorenzo's Music - Variation witch - audio](https://i.ytimg.com/vi/9Fxmzb-1Pd8/maxresdefault.jpg)](https://youtu.be/9Fxmzb-1Pd8)
 
 You can also **download this song from our website**
 [https://www.lorenzosmusic.com/2021/06/variation-witch-by-lorenzos-music-single.html](https://www.lorenzosmusic.com/2021/06/variation-witch-by-lorenzos-music-single.html?utm_source=github&utm_medium=variationwitchsonglink&utm_campaign=readme)
